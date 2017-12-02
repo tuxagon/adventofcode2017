@@ -1,4 +1,4 @@
-module Lib
+module AocDay1
     ( someFunc
     ) where
 
