@@ -2,8 +2,8 @@
 --
 -- see: https://github.com/sol/hpack
 
-name:           aoc-day1
-version:        0.1.0.0
+name:           aoc
+version:        0.2.0.0
 license-file:   LICENSE
 build-type:     Simple
 cabal-version:  >= 1.10
@@ -15,9 +15,9 @@ library
       base
     , array
   exposed-modules:
-      AocDay1
+      Aoc
   other-modules:
-      Paths_aoc_day1
+      Paths_aoc
   default-language: Haskell2010
 
 test-suite test
@@ -28,6 +28,6 @@ test-suite test
   build-depends:
       base
     , array
-    , aoc-day1
+    , aoc
     , hspec
   default-language: Haskell2010

@@ -1,12 +1,13 @@
-name: aoc-day1
-version: 0.1.0.0
+name: aoc
+version: 0.2.0.0
 
 dependencies:
   - base
   - array
 
 library:
-  exposed-modules: AocDay1
+  exposed-modules: 
+    - Aoc
   source-dirs: src
   dependencies:
 
@@ -15,5 +16,5 @@ tests:
     main: Spec.hs
     source-dirs: test
     dependencies:
-      - aoc-day1
+      - aoc
       - hspec
