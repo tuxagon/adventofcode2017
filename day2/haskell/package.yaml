@@ -1,0 +1,20 @@
+name: aoc
+version: 0.2.0.0
+
+dependencies:
+  - base
+  - array
+
+library:
+  exposed-modules: 
+    - Aoc
+  source-dirs: src
+  dependencies:
+
+tests:
+  test:
+    main: Spec.hs
+    source-dirs: test
+    dependencies:
+      - aoc
+      - hspec
